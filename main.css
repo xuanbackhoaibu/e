@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.blank {
+    flex: 1;
+}
+
+#left {
+    background-color: aquamarine;
+    width: 250px;
+}
+
+#right {
+    background-color: bisque;
+    flex: 1;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
